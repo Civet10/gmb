@@ -99,6 +99,13 @@ body {
     /*border-radius: 50%;
     border: 2px solid var(--golden);*/
 }
+.logo-img1 {
+    width: 150px;
+    height: 100px;
+    object-fit: content;
+    /*border-radius: 50%;
+    border: 2px solid var(--golden);*/
+}
 
 .logo-text {
     font-size: 24px;
