@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final de Ano Super Premiado - GMB</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Particles Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="./public/GMB Branca.png" alt="GMB Logo" class="logo-img">
+                <span class="logo-text"></span>
+            </div>
+            
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#promocao" class="nav-link">A Promoção</a></li>
+                    <li><a href="#lojas" class="nav-link">Lojas Participantes</a></li>
+                    <li><a href="#premiacao" class="nav-link">Premiação</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Image Section -->
+    <section class="hero-image" id="hero-image">
+        <div class="hero-image-container">
+            <img src="./public/Banner site.jpg" alt="Final de Ano Super Premiado - GMB" class="hero-main-image">
+            <div class="hero-image-overlay"></div>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+     <!--
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <img src="./public/printgmb.jpg" alt="Final de Ano Super Premiado" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">
+                    <span class="title-line1">FINAL DE ANO</span>
+                    <span class="title-line2">SUPER PREMIADO</span>
+                </h1>
+                <p class="hero-subtitle">Compre, preencha o cupom e concorra a prêmios incríveis!</p>
+                <div class="hero-prizes">
+                    <div class="prize-item">
+                        <i class="fas fa-ship"></i>
+                        <span>1 Cabine no Navio Barretos 70 Anos</span>
+                    </div>
+                    <div class="prize-item">
+                        <i class="fas fa-tv"></i>
+                        <span>2 Smart TVs 50"</span>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('promocao')">
+                    <span>Saiba Mais</span>
+                    <i class="fas fa-arrow-down"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="floating-elements">
+            <div class="floating-star star-1">✨</div>
+            <div class="floating-star star-2">⭐</div>
+            <div class="floating-star star-3">🎆</div>
+            <div class="floating-star star-4">✨</div>
+            <div class="floating-star star-5">🎊</div>
+        </div>
+    </section> 
+-->
+
+    <!-- Promoção Section -->
+    <section class="section promocao-section" id="promocao">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">A Promoção</h2>
+                <div class="title-decoration"></div>
+                <p class="hero-subtitle">Compre, preencha o cupom e concorra a prêmios incríveis!</p>
+                <div class="hero-prizes">
+                    <div class="prize-item">
+                        <i class="fas fa-ship"></i>
+                        <span>1 Cabine no Navio Barretos 70 Anos</span>
+                    </div>
+                    <div class="prize-item">
+                        <i class="fas fa-tv"></i>
+                        <span>2 Smart TVs 50"</span>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('promocao')">
+                    <span>Saiba Mais</span>
+                    <i class="fas fa-arrow-down"></i>
+                </button>
+            </div>
+            
+            <div class="promocao-content">
+                <div class="promocao-card">
+                    <div class="card-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Como Participar</h3>
+                    <p>Faça suas compras em qualquer uma das lojas participantes durante o período da promoção (outubro de 2025 a janeiro de 2026).</p>
+                </div>
+
+                <div class="promocao-card">
+                    <div class="card-icon">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <h3>Consulte o regulamento</h3>
+                    <p>Complete seus dados no cupom promocional que você receberá junto com sua compra. Não esqueça de depositar nas urnas.</p>
+                </div>
+
+                <div class="promocao-card">
+                    <div class="card-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Concorra aos Prêmios</h3>
+                    <p>Deposite seu cupom nas urnas disponíveis nas lojas participantes e aguarde o sorteio que acontecerá no dia 31 de janeiro de 2025.</p>
+                </div>
+            </div>
+
+            <div class="promo-details">
+                <div class="detail-box">
+                    <h4>Período da Promoção</h4>
+                    <p><i class="fas fa-calendar"></i> Outubro de 2025 a Janeiro de 2026</p>
+                </div>
+                <div class="detail-box">
+                    <h4>Data dos Sorteios</h4>
+                    <p><i class="fas fa-clock"></i> Novembro de 2025 </p>
+                    <p><i class="fas fa-clock"></i> Dezembro de 2025 </p>
+                    <p><i class="fas fa-clock"></i> Janeiro de 2026 </p>
+                </div>
+                <div class="detail-box">
+                    <h4>Local do Sorteio</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Sede - Grupo Monteiro</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lojas Participantes Section -->
+    <section class="section lojas-section" id="lojas">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title1">Lojas Participantes</h2>
+                <div class="title-decoration"></div>
+                <p class="section-subtitle">Confira todas as lojas onde você pode participar da promoção</p>
+            </div>
+
+            <div class="lojas-grid">
+                <!-- Template para lojas - pode ser duplicado -->
+                <div class="loja-card">
+                    <div class="loja-logo">
+                        <div class="logo-placeholder">
+                            <i class="fas fa-store"></i>
+                            <span>Logo da Loja</span>
+                        </div>
+                    </div>
+                    <div class="loja-info">
+                        <h3 class="loja-nome">Nome da Loja 1</h3>
+                        <div class="loja-details">
+                            <p class="loja-telefone">
+                                <i class="fas fa-phone"></i>
+                                (00) 0000-0000
+                            </p>
+                            <p class="loja-endereco">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Rua Example, 123 - Centro
+                            </p>
+                            <a href="#" class="loja-instagram">
+                                <i class="fab fa-instagram"></i>
+                                @nomedoja1
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="loja-card">
+                    <div class="loja-logo">
+                        <div class="logo-placeholder">
+                            <i class="fas fa-store"></i>
+                            <span>Logo da Loja</span>
+                        </div>
+                    </div>
+                    <div class="loja-info">
+                        <h3 class="loja-nome">Nome da Loja 2</h3>
+                        <div class="loja-details">
+                            <p class="loja-telefone">
+                                <i class="fas fa-phone"></i>
+                                (00) 0000-0000
+                            </p>
+                            <p class="loja-endereco">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Avenida Example, 456 - Bairro
+                            </p>
+                            <a href="#" class="loja-instagram">
+                                <i class="fab fa-instagram"></i>
+                                @nomedoja2
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="loja-card">
+                    <div class="loja-logo">
+                        <div class="logo-placeholder">
+                            <i class="fas fa-store"></i>
+                            <span>Logo da Loja</span>
+                        </div>
+                    </div>
+                    <div class="loja-info">
+                        <h3 class="loja-nome">Nome da Loja 3</h3>
+                        <div class="loja-details">
+                            <p class="loja-telefone">
+                                <i class="fas fa-phone"></i>
+                                (00) 0000-0000
+                            </p>
+                            <p class="loja-endereco">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Travessa Example, 789 - Vila
+                            </p>
+                            <a href="#" class="loja-instagram">
+                                <i class="fab fa-instagram"></i>
+                                @nomedoja3
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="loja-card">
+                    <div class="loja-logo">
+                        <div class="logo-placeholder">
+                            <i class="fas fa-store"></i>
+                            <span>Logo da Loja</span>
+                        </div>
+                    </div>
+                    <div class="loja-info">
+                        <h3 class="loja-nome">Nome da Loja 4</h3>
+                        <div class="loja-details">
+                            <p class="loja-telefone">
+                                <i class="fas fa-phone"></i>
+                                (00) 0000-0000
+                            </p>
+                            <p class="loja-endereco">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Praça Example, 321 - Centro
+                            </p>
+                            <a href="#" class="loja-instagram">
+                                <i class="fab fa-instagram"></i>
+                                @nomedoja4
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="add-more-stores">
+                <p><i class="fas fa-plus-circle"></i> Mais lojas serão adicionadas em breve!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premiação Section -->
+    <section class="section premiacao-section" id="premiacao">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Premiação</h2>
+                <div class="title-decoration"></div>
+                <p class="section-subtitle">Prêmios incríveis esperando por você!</p>
+            </div>
+
+            <div class="premios-grid">
+                <div class="premio-card primeiro-premio">
+                    <div class="premio-badge">1º Prêmio</div>
+                    <div class="premio-image">
+                        <div class="image-placeholder navio-placeholder">
+                            <i class="fas fa-ship"></i>
+                            <span>Imagem do Navio</span>
+                        </div>
+                    </div>
+                    <div class="premio-content">
+                        <h3>1 Cabine no Navio Barretos 70 Anos</h3>
+                        <p>Uma experiência única navegando com todo conforto e diversão. Cabine completa para 2 pessoas com todas as refeições incluídas.</p>
+                        <div class="premio-features">
+                            <span><i class="fas fa-bed"></i> Cabine dupla</span>
+                            <span><i class="fas fa-utensils"></i> Refeições inclusas</span>
+                            <span><i class="fas fa-music"></i> Shows ao vivo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="premio-card segundo-premio">
+                    <div class="premio-badge">2º Prêmio</div>
+                    <div class="premio-image">
+                        <div class="image-placeholder tv-placeholder">
+                            <i class="fas fa-tv"></i>
+                            <span>Imagem da Smart TV</span>
+                        </div>
+                    </div>
+                    <div class="premio-content">
+                        <h3>1 Smart TVs 50"</h3>
+                        <p>Uma Smart TVs de 50 polegadas com tecnologia 4K, conectividade Wi-Fi e acesso aos principais apps de streaming.</p>
+                        <div class="premio-features">
+                            <span><i class="fas fa-desktop"></i> Tela 50"</span>
+                            <span><i class="fas fa-wifi"></i> Smart TV</span>
+                            <span><i class="fas fa-video"></i> 4K Ultra HD</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="premio-card segundo-premio">
+                    <div class="premio-badge">3 Prêmio</div>
+                    <div class="premio-image">
+                        <div class="image-placeholder tv-placeholder">
+                            <i class="fas fa-tv"></i>
+                            <span>Imagem da Smart TV</span>
+                        </div>
+                    </div>
+                    <div class="premio-content">
+                        <h3>1 Smart TVs 50"</h3>
+                        <p>Uma Smart TVs de 50 polegadas com tecnologia 4K, conectividade Wi-Fi e acesso aos principais apps de streaming.</p>
+                        <div class="premio-features">
+                            <span><i class="fas fa-desktop"></i> Tela 50"</span>
+                            <span><i class="fas fa-wifi"></i> Smart TV</span>
+                            <span><i class="fas fa-video"></i> 4K Ultra HD</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="sorteio-info">
+                <div class="info-card">
+                    <h4><i class="fas fa-balance-scale"></i> Regulamento</h4>
+                    <p>O sorteio será realizado de forma pública e transparente, com a presença de autoridades competentes e participantes.</p>
+                </div>
+                <div class="info-card">
+                    <h4><i class="fas fa-id-card"></i> Documentação</h4>
+                    <p>Os ganhadores deverão apresentar documento oficial com foto e comprovante de participação na promoção.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section class="section contato-section" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title1">Contato</h2>
+                <div class="title-decoration"></div>
+                <p class="section-subtitle">Entre em contato conosco para mais informações</p>
+            </div>
+
+            <div class="contato-content">
+                <div class="contato-info">
+                    <!--<div class="logo-contato">
+                        <img src="/public/printgmb.jpg" alt="GMB Logo" class="contato-logo-img">
+                        <h3>GMB Promoções</h3>
+                    </div>-->
+
+                    <div class="info-items">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Telefone</h4>
+                                <p>(00) 0000-0000</p>
+                                <p>(00) 00000-0000</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Endereço</h4>
+                                <p>Rua Principal, 123<br>Centro - Cidade - UF<br>CEP: 00000-000</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                           <!-- <div class="info-content">
+                                <h4>Instagram</h4>
+                                <a href="#" target="_blank">@gmb_promocoes</a>
+                            </div> -->
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Horário de Atendimento</h4>
+                                <p>Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 12h</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contato-form">
+                    <h3>Envie sua Mensagem</h3>
+                    <form class="form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="nome" name="nome" required>
+                            <label for="nome">Nome Completo</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">E-mail</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="tel" id="telefone" name="telefone" required>
+                            <label for="telefone">Telefone</label>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                            <label for="mensagem">Mensagem</label>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <span>Enviar Mensagem</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+
+                    <div class="whatsapp-contact">
+                        <a href="https://wa.me/5500000000000?text=Olá! Gostaria de saber mais sobre a promoção Final de Ano Super Premiado." target="_blank" class="whatsapp-btn">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Falar no WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./public/GMB Branca.png" alt="GMB Logo" class="footer-logo-img">
+                    <h3>Final de Ano Super Premiado</h3>
+                </div>
+                <div class="footer-links">
+                    <a href="#promocao">A Promoção</a>
+                    <a href="#lojas">Lojas Participantes</a>
+                    <a href="#premiacao">Premiação</a>
+                    <a href="#contato">Contato</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GMB. Todos os direitos reservados. | Promoção válida de 01/12/2024 a 31/01/2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
