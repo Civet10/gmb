@@ -97,7 +97,7 @@ Email: ${email}
 Telefone: ${telefone}
 Mensagem: ${mensagem}`;
     
-    const whatsappUrl = `https://wa.me/5500000000000?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/5517997185116?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
     
     // Show success message
