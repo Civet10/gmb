@@ -101,7 +101,7 @@ body {
 }
 .logo-img1 {
     width: 150px;
-    height: 100px;
+    height: 130px;
     object-fit: content;
     /*border-radius: 50%;
     border: 2px solid var(--golden);*/
@@ -972,12 +972,12 @@ body {
 .info-content h4 {
     font-size: 1.1rem;
     font-weight: 700;
-    color: var(--primary-blue);
+    color: var(--light-blue);
     margin-bottom: 5px;
 }
 
 .info-content p {
-    color: var(--text-gray);
+    color: var(--light-gray);
     line-height: 1.6;
 }
 
