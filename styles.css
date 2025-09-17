@@ -1197,7 +1197,9 @@ body {
     transform: translateY(-5px);
     box-shadow: var(--shadow-large);
 }
-
+.mobile {
+    display: none;
+}
 /* Responsive Design */
 @media (max-width: 1024px) {
     .contato-content {
@@ -1222,7 +1224,17 @@ body {
     .mobile-menu-btn {
         display: flex;
     }
-    
+    .pc {
+        display: none;
+        
+    }
+    .mobile {
+        display: block;
+        object-fit: contain;
+    }
+    .hero-image {
+        height: auto;
+    }
     .nav {
         position: fixed;
         top: 0;
